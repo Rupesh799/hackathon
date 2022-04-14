@@ -1,0 +1,140 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <title>Infrastructure Vehicle</title>
+</head>
+
+<body>
+    <div class="container">
+        <aside>
+            <!-- forlogo -->
+            <div class="top">
+                <div class="logo">
+                    <h1><span class="primary">Infrastructure</span><span class="danger"> Vehicle</span></h1>
+                </div>
+
+                <!-- for close button -->
+                <div class="close" id="close_btn">
+                    <i class="uil uil-times"></i>
+                </div>
+            </div>
+            <!-- sidebar -->
+            <div class="sidebar">
+                <a href="home.html" class="active">
+                    <i class="uil uil-create-dashboard sidebar_icons"></i>
+                    <h4>Information</h4>
+                </a>
+
+                <a href="call.html">
+                    <i class="uil uil-message sidebar_icons"></i>
+                    <h4>call now</h4>
+                </a>
+
+                <a href="about.html">
+                    <i class="uil uil-users-alt sidebar_icons"></i>
+                    <h4>About</h4>
+                </a>
+
+                <a href="report.html">
+                    <i class="uil uil-info-circle sidebar_icons"></i>
+                    <h4>report</h4>
+                </a>
+
+                <a href="logout.html">
+                    <i class="uil uil-signout sidebar_icons"></i>
+                    <h4>log out</h4>
+                </a>
+            </div>
+        </aside>
+
+        <!-- ==========end of aside============ -->
+        <!-- ==========start of main============ -->
+        <main>
+            <div class="main_container">
+            <div class="call_container">
+               <div class="location">
+                   <small>enter the location</small>
+                   <input type="text" name="map" id="">
+
+                   <div class="map" id="map_data">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3594417.4323380818!2d81.88604589184851!3d28.38383403028347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3995e8c77d2e68cf%3A0x34a29abcd0cc86de!2sNepal!5e0!3m2!1sen!2snp!4v1649915660901!5m2!1sen!2snp"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                   </div>
+               </div>
+
+                    <div class="wrapper">
+                        <div class="image">
+                            <img src="" alt=".">
+                        </div>
+                        <div class="content">
+                            <div class="icon">
+                            <i class="uil uil-upload"></i>
+                            </div>
+                            <div class="text">
+                                No file chosen, yet!
+                            </div>
+                        </div>
+                        <div id="cancel-btn">
+                            <i class="uil uil-times"></i>
+                        </div>
+                        <div class="file-name">
+                            File name here
+                        </div>
+                    </div>
+                    <button onclick="defaultBtnActive()" id="custom-btn">Choose a file</button>
+                    <input id="default-btn" type="file" hidden>
+
+                    
+                  
+                    <div class="description">
+                        <small >things to repair</small>
+                        <textarea name="message" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    <button>Alert</button>
+                    </div>
+           
+            </div>
+            </div>
+
+        </main>
+
+        <!-- ==========end of main============ -->
+
+        <!-- ==========start of right section============ -->
+        <div class="right">
+            <div class="top">
+                <button class="menu_btn" id="menu-btn">
+                    <i class="uil uil-bars sidebar_icons"></i>
+                </button>
+                <div class="user_profile">
+                    <img src="/user8.jpg" alt="user_photo">
+                </div>
+            </div>
+        </div>
+
+
+        <!-- ==========end of right section============ -->
+
+        <!-- ==================for modal============== -->
+                <!-- <div class="bg_modal">
+                    <div class="modal_content">
+                    
+                    </div>
+                </div> -->
+
+    
+
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
